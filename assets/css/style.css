@@ -1,0 +1,232 @@
+body {
+    background-color: #e6e7ed;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+  }
+  
+  body h2, body p {
+    text-align: center;
+  }
+  
+  /*-----navigation-----*/
+  nav {
+    height: 150px;
+    width: 100%;
+    margin: -20px -10px 0px -10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  nav li {
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style-type: none;
+    color: black;
+    font-size: 14px;
+  }
+  
+  nav img {
+    width: 100px;
+    height: 50px;
+    margin-top: -20px;
+    margin-bottom: -1px;
+  }
+  
+  #menu1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    float: left;
+  }
+  
+  #menu2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    float: right;
+  }
+  
+  #gratuit {
+    color: white;
+    display: inline;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: black;
+  }
+  
+  #connexion {
+    color: white;
+    display: inline;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: black;
+  }
+  
+  /* ----------- liste fonctions ------------- */
+  .listefonctions {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 300px 300px 300px 300px;
+        grid-template-columns: 300px 300px 300px 300px;
+    background-color: white;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .listefonctions article {
+    border: 1px solid black;
+    padding: 60px;
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .listefonctions img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* ----------- partie accroche 2------------- */
+  .boutonessai {
+    text-align: center;
+  }
+  
+  #gratos {
+    color: black;
+    display: inline;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+  }
+  
+  .screen img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* ----------- accroche3------------- */
+  .accroche3 {
+    background-color: white;
+    padding-bottom: 10px;
+  }
+  
+  /* ----------- cloud------------- */
+  .cloud {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 300px 300px;
+        grid-template-columns: 300px 300px;
+    background-color: white;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .cloud article {
+    border: 1px solid black;
+    padding: 60px;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .cloud img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* ----------- accroche4------------- */
+  .accroche4 {
+    background-color: #e6e7ed;
+    text-align: center;
+  }
+  
+  .accroche4 li {
+    display: inline-block;
+  }
+  
+  .accroche4 img {
+    width: 100px;
+    height: 50px;
+  }
+  
+  /* ----------- accroche5------------- */
+  .accroche5 {
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+  }
+  
+  .accroche5 form {
+    background-color: #e6e7ed;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .accroche5 label {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* ----------- footer------------- */
+  footer {
+    width: cover;
+    background-color: #3e4758;
+    padding: 40px;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  
+  .foot {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 150px 150px 150px 150px 150px 150px;
+        grid-template-columns: 150px 150px 150px 150px 150px 150px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  #titrefoot {
+    color: #756767;
+  }
+  
+  .sociaux {
+    text-align: center;
+  }
+  
+  .sociaux li {
+    display: inline-block;
+  }
+  
+  .sociaux img {
+    height: 50px;
+    width: 50px;
+  }
+
+
+/*# sourceMappingURL=style.css.map */

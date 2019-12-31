@@ -1,0 +1,235 @@
+$primary-color: #e6e7ed;
+$second-color: white;
+$third-color: black;
+$font-stack: Helvetica,
+sans-serif;
+
+body {
+    background-color: $primary-color;
+    font-family: $font-stack;
+    font-weight: 300;
+
+    h2,p {
+        text-align: center;
+
+    }
+}
+
+@mixin ligne {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    background-color: $second-color;
+    justify-content: center;
+}
+
+@mixin navside {
+    color: $second-color;
+    display: inline;
+    border: 1px solid $third-color;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: $third-color;
+}
+
+/*-----navigation-----*/
+
+nav {
+    height: 150px;
+    width: 100%;
+    margin: -20px -10px 0px -10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    li {
+        padding-left: 15px;
+        padding-right: 15px;
+        list-style-type: none;
+        color: $third-color;
+        font-size: 14px;
+    }
+
+    img {
+        width: 100px;
+        height: 50px;
+        margin-top: -20px;
+        margin-bottom: -1px;
+    }
+}
+
+#menu1 {
+
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+
+#menu2 {
+
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+#gratuit {
+    @include navside();
+}
+
+
+#connexion {
+    @include navside();
+}
+
+
+/* ----------- liste fonctions ------------- */
+.listefonctions {
+    @include ligne();
+
+    article {
+        border: 1px solid $third-color;
+        padding: 60px;
+        margin: 0px;
+        text-align: center;
+        background-color: $second-color;
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+/* ----------- partie accroche 2------------- */
+.boutonessai {
+    text-align: center;
+
+}
+
+#gratos {
+    color: $third-color;
+    display: inline;
+    border: 1px solid $third-color;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: $second-color;
+
+}
+
+.screen img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----------- accroche3------------- */
+
+.accroche3 {
+    background-color: $second-color;
+    padding-bottom: 10px;
+
+}
+
+/* ----------- cloud------------- */
+
+.cloud {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    background-color: white;
+    justify-content: center;
+
+    article {
+
+        border: 1px solid $third-color;
+        padding: 60px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+/* ----------- accroche4------------- */
+
+.accroche4 {
+    background-color: $primary-color;
+    text-align: center;
+
+    li {
+        display: inline-block;
+
+    }
+
+    img {
+        width: 100px;
+        height: 50px;
+
+    }
+
+}
+
+/* ----------- accroche5------------- */
+.accroche5 {
+    height: 300px;
+    text-align: center;
+    background-color: $second-color;
+    padding: 40px;
+
+
+    form {
+        background-color: $primary-color;
+        width: 500px;
+        margin: 0 auto;
+        border: 1px solid $third-color;
+        border-radius: 5px;
+    }
+
+    label {
+        font-weight: bold;
+        text-align: left;
+    }
+
+}
+
+/* ----------- footer------------- */
+
+footer {
+    width: cover;
+    background-color: #3e4758;
+    padding: 40px;
+
+    p {
+        text-align: center;
+    }
+}
+
+.foot {
+
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+    justify-content: center;
+
+}
+
+#titrefoot {
+    color: rgb(117, 103, 103);
+
+}
+
+
+.sociaux {
+    text-align: center;
+
+li {
+    display: inline-block;
+}
+
+img {
+    
+        height: 50px;
+        width: 50px;
+    }
+}
